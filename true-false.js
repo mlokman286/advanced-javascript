@@ -18,5 +18,5 @@ if (Name) {
     console.log('condition is true')
 }
 else{
-    console.log('conditoin is false')
+    console.log('condition is false')
 }
