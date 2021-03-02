@@ -1,12 +1,13 @@
-const friendsName = ['Nadim', 'Joynal', 'Sayem', 'Mossarof', 'Sahin', 'Sohel', 'Sujon', 'Jurik'];
-
-// const part = friendsName.slice(2, 5);
-// console.log(part);
-// console.log(friendsName);
-
-// const removed = friendsName.splice(2, 5, 'Tarif', 'Raju', 'Sojib');
-// console.log(removed);
-// console.log(friendsName);
-
-const together = friendsName.join(' & ');
-console.log(together);
+const nums = [1, -2, 3, 4, -5, 6, 7, -8, 9];
+var i=0;
+while (i = nums.length) {
+    const element = nums.length[i];
+    i++;
+    if (element > 5) {
+        break;
+    }
+    if(element <0){
+        continue;
+    }
+    console.log(element)
+}
