@@ -1,24 +1,14 @@
-//map, filter, fine
-const numbers = [2, 3, 4, 5, 6, 7, 8, 9]
-// for (let i = 0; i < numbers.length; i++) {
-//     const element = numbers[i];
-//     console.log(element*element); ;
-// }
-
-// function square(element) {
-//     return element*element;
-// }
-
-// const result = numbers.map(function (element,index,array) {
-//     console.log(array)
-// })
-
-// const result = numbers.map(elements)
-
-// filter;
-// const bigger = numbers.filter(x => x<5)
-// console.log(bigger);
-
-//find
-const isThere = numbers.find(x =>x >5)
-console.log(isThere);
+const myFriend = [
+    { roll: 1, name: "Shanhin Mahmud" },
+    { roll: 2, name: "Mossarof" },
+    { roll: 3, name: 'Tuhin Rahman' },
+    { roll: 4, name: 'Lokman' },
+    { roll: 6, name: 'Sujon' },
+    { roll: 17, name: 'Nadim' },
+    { roll: 10, name: 'Joynal Abedin' }
+]
+const allRoll = myFriend.map(x => x.roll);
+const allName = myFriend.map(x => x.name)
+const bigger = myFriend.filter(x => x.roll > 3)
+const biggerOne = myFriend.find(x => x.roll > 3)
+console.log(allName)
